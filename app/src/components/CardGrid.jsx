@@ -3,7 +3,7 @@ import { SockCard } from "./SockCard";
 import { Row, Col } from "antd";
 
 export const CardGrid = () => (
-  <Row justify="end">
+  <Row type={"flex"} justify={"center"}>
     <Col xs={24} sm={24} lg={12} xl={8}>
       <SockCard title={"Bitcoin Socks"} coin={"bitcoin"} price={10}/>
     </Col>

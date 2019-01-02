@@ -17,6 +17,7 @@ export const SockCard = ({ title, coin, price }) => (
   <div
     style={{
       width: "400px",
+      margin: "0 auto",
       background: "#fff",
       padding: "10px",
       textAlign: "center",
@@ -25,7 +26,7 @@ export const SockCard = ({ title, coin, price }) => (
     }}
   >
     <h1>{title}</h1>
-    <img src={sockImageUrl[coin]} alt={"sockImage"} />
+    <img src={sockImageUrl[coin]} alt={"sockImage"} width={'350px'} />
     <h3>{sockDesc[coin]}</h3>
     <PaymentBox price={price} coin={coin}/>
   </div>
