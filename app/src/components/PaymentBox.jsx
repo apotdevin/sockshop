@@ -53,7 +53,7 @@ export class PaymentBox extends React.Component {
           <input
             type="hidden"
             name="redirectUrl"
-            value="https://example.com/thankyou"
+            value="https://sockshop.apotdevin.com/paid"
           />
           <Button
             disabled={disabled}
