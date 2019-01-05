@@ -9,7 +9,7 @@ const sockImageUrl = {
 
 const sockDesc = {
   bitcoin: "Show how awesome you are with these Bitcoin socks!",
-  digibyte: "Show your love for Shitcoins with these Digibyte socks!",
+  digibyte: "Show your love for Altcoins with these Digibyte socks!",
   monero: "Show your passion for privacy with these Monero socks!"
 };
 
